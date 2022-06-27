@@ -14,8 +14,7 @@ public class Main {
         }
     }
 
-    public static void main(String[] args) {
-
+    public static void fillList() {
         while (true) {
             Scanner sc = new Scanner(System.in);
             System.out.print("Enter string: ");
@@ -25,5 +24,11 @@ public class Main {
                 break;
             } else list.add(temp);
         }
+    }
+
+    public static void main(String[] args) {
+
+        fillList();
+
     }
 }
