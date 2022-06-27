@@ -33,11 +33,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        fill(words);
-
-        doubleValues(words);
-
-        print(words);
+        print(doubleValues(fill(words)));
 
     }
 }

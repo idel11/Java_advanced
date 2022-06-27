@@ -7,7 +7,7 @@ public class Main {
     public static List<Integer> getIntegerList() {
         List<Integer> list = new LinkedList<>();
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter number(Integer): ");
+        System.out.print("How many integers do you want to add: ");
         int number = sc.nextInt();
         for (int i = 0; i < number; i++) {
             System.out.print("Enter number(Integer): ");

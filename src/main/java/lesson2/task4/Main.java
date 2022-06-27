@@ -26,7 +26,8 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        fillMap();
-        findByCity(map);
+
+        findByCity(fillMap());
+
     }
 }
