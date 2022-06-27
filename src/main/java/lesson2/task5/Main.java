@@ -8,7 +8,10 @@ public class Main {
     static List<String> list = new ArrayList<>();
 
     public static void print(List list) {
-        System.out.println(list);
+        System.out.println("Your list is:");
+        for (Object s : list) {
+            System.out.println(s);
+        }
     }
 
     public static void main(String[] args) {
