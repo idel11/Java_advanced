@@ -5,7 +5,7 @@ import java.util.*;
 public class Main {
 
     public static List<Integer> getIntegerList() {
-        List<Integer> list = new LinkedList<>();
+        LinkedList<Integer> list = new LinkedList<>();
         Scanner sc = new Scanner(System.in);
         System.out.print("How many integers do you want to add: ");
         int number = sc.nextInt();
