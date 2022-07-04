@@ -1,4 +1,4 @@
-package lesson3.Task2;
+package lesson3.task2;
 
 /*Создайте файл, запишите в него произвольные данные и закройте файл.
 Затем снова откройте этот файл, прочитайте из него данные и выведете их на консоль.*/
@@ -6,7 +6,7 @@ package lesson3.Task2;
 import java.io.*;
 import java.util.Scanner;
 
-public class FileHandle {
+public class FileHandler {
     public static void main(String[] args) throws IOException {
 
         Scanner sc = new Scanner(System.in);
