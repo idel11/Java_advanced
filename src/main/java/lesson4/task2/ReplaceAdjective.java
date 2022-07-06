@@ -18,7 +18,6 @@ public class ReplaceAdjective {
         String outputFile = "src/main/java/lesson4/task2/outFile.txt";
 
         String tmp = new String(Files.readAllBytes(Paths.get(sourceFile)));
-        System.out.println(tmp);
 
         Pattern p = Pattern.compile("\\b(?:In|in|with|on|to)\\b");
         Matcher m = p.matcher(tmp);
