@@ -9,7 +9,7 @@ import java.io.PrintWriter;
 import java.nio.file.*;
 import java.util.regex.*;
 
-public class ReplaceAdjective {
+public class Deshefrator {
 
     public static void main(String[] args) throws IOException {
 
@@ -26,6 +26,9 @@ public class ReplaceAdjective {
         PrintWriter printWriter = new PrintWriter(fileWriter);
         printWriter.print(tmp);
         printWriter.close();
+
+        System.out.println();
+        System.err.println("Deshefrator has finished his task. Please look at 'outFile.txt");
 
     }
 
