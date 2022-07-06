@@ -1,16 +1,15 @@
 package lesson4.task2;
 
+/*Напишите шуточную программу «Дешифратор», которая бы в текстовом файле
+ могла бы заменить все предлоги на слово «Java».*/
+
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.nio.file.Files;
-import java.nio.file.Paths;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
+import java.nio.file.*;
+import java.util.regex.*;
 
 public class ReplaceAdjective {
-
 
     public static void main(String[] args) throws IOException {
 
