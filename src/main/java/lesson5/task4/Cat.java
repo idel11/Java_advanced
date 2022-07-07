@@ -26,6 +26,7 @@ public class Cat {
         System.out.println();
 
         Field legsF = animalClass.getDeclaredField("legs");
+        legsF.setAccessible(true);
         legsF.setInt(dog, 5);
 
         Field kindF = animalClass.getDeclaredField("kind");

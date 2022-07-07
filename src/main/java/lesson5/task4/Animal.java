@@ -2,7 +2,7 @@ package lesson5.task4;
 
 public class Animal {
 
-    int legs;
+    private int legs;
     protected String kind;
     public boolean isPredator;
 
