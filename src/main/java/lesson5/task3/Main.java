@@ -1,5 +1,11 @@
 package lesson5.task3;
 
+/*
+Создайте класс, в нем определите 3 поля, к этим полям создайте конструкторы и методы.
+Под средством рефлексии получите всю информацию о полях, методах,
+конструкторах, а также модификаторах доступа.
+*/
+
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;

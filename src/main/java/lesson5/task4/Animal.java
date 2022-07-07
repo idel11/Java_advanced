@@ -29,7 +29,7 @@ public class Animal {
     }
 
     public String getPredator() {
-        if (this.isPredator == true){
+        if (this.isPredator == true) {
             return "Yes";
         } else return "No";
     }
