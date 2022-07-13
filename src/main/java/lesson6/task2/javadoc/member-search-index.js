@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"lesson6.task2","c":"MathAnnotation","l":"a()"},{"p":"lesson6.task2","c":"MathAnnotation","l":"b()"},{"p":"lesson6.task2","c":"Calc","l":"Calc()","u":"%3Cinit%3E()"}];updateSearchResults();
