@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<address>
+    <city xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="kyiv" size="big">
+        <street xsi:type="khreschatyk">
+            <house_number>1</house_number>
+        </street>
+    </city>
+    <city xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="london" size="big">
+        <street xsi:type="downing">
+            <house_number>10</house_number>
+        </street>
+    </city>
+</address>
