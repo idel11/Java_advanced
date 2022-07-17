@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<kyiv size="big">
-    <street>Khreschatyk</street>
-    <number>1</number>
-</kyiv>
+<addresses>
+    <address>
+        <city size="big">Kyiv</city>
+        <building_number>1</building_number>
+        <street>Khreschatyk</street>
+    </address>
+    <address>
+        <city size="big">Kyiv</city>
+        <building_number>10</building_number>
+        <street>Downing</street>
+    </address>
+</addresses>
