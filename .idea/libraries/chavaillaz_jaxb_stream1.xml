@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="chavaillaz.jaxb.stream1" type="repository">
+    <properties maven-id="com.chavaillaz:jaxb-stream:1.0.4" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/chavaillaz/jaxb-stream/1.0.4/jaxb-stream-1.0.4.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/activation/activation/1.1.1/activation-1.1.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/glassfish/jaxb/jaxb-runtime/2.3.3/jaxb-runtime-2.3.3.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/glassfish/jaxb/txw2/2.3.3/txw2-2.3.3.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/sun/istack/istack-commons-runtime/3.0.11/istack-commons-runtime-3.0.11.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
