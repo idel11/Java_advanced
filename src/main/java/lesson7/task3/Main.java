@@ -11,17 +11,17 @@ public class Main {
 
     public static void main(String[] args) throws JAXBException {
 
-        City kyiv = new City("big","Kyiv");
-        City london = new City("big", "Kyiv");
+        City kyiv = new City("big", "Kyiv");
+        City london = new City("big", "London");
 
-        Address myAddress = new Address(kyiv,"Khreschatyk", 1);
-        Address borisAddress = new Address(london,"Downing", 10);
+        Address myAddress = new Address(kyiv, "Khreschatyk", 1);
+        Address borisAddress = new Address(london, "Downing", 10);
 
         Addresses listAdr = new Addresses(List.of(myAddress, borisAddress));
 
         StringWriter writer = new StringWriter();
 
-        JAXBContext context = JAXBContext.newInstance(City.class, Addresses.class, Address.class);
+        JAXBContext context = JAXBContext.newInstance(Address.class, City.class, Addresses.class);
 
 
         Marshaller marshaller = context.createMarshaller();
