@@ -13,7 +13,6 @@ public class Main extends Thread {
         second.start();
         first.start();
 
-
     }
 
     @Override
@@ -24,5 +23,5 @@ public class Main extends Thread {
             throw new RuntimeException(e);
         }
         System.out.print(" main");
-    }
+   }
 }
