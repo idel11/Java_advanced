@@ -1,5 +1,9 @@
 package lesson9.task4;
 
+/*
+Напишите основные арифметические действия калькулятора используя лямбда-выражения
+*/
+
 import java.util.Scanner;
 
 public class Calc {

@@ -1,5 +1,11 @@
 package lesson8.task2;
 
+/*
+Задержка потока. Необходимо создать 3 потока, каждых из этих потоков запустить
+(например: main, second, first), и когда эти потоки успешно отработают – вывести на экран сообщение
+(завершение потом first, second и main).
+*/
+
 public class Main extends Thread {
     public static void main(String[] args) throws InterruptedException {
 

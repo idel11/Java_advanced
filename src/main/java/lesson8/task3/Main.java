@@ -1,5 +1,11 @@
 package lesson8.task3;
 
+/*
+Демонстрация приоритетов. Создать 2 класса PriorityRunner и PriorityThread.
+Запустить 3 потока с приоритетами (min, max, norm). При помощи цикла for выведем на экран значения
+ от 1 до 50 и укажем, какой именно поток данную операцию делает.
+*/
+
 public class Main extends Thread {
 
     public static void main(String[] args) {
